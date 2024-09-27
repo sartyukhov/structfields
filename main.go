@@ -9,8 +9,8 @@ import (
 
 func main() {
 	var Analyzer = &analysis.Analyzer{
-		Name: "fieldinit",
-		Doc:  "checks that required fields in a struct are initialized",
+		Name: "structfieldschecker",
+		Doc:  "Checks that all fields in a struct are initialized",
 		Run:  internal.Run,
 	}
 
